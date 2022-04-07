@@ -1,1 +1,1 @@
-This script executes to only compile a C file but does not link
+This script executes to generate the assembly code of a C code
