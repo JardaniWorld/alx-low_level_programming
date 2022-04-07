@@ -1,1 +1,1 @@
-This script executes to generate the assembly code of a C code
+This script executes to compile and produce an executable file
