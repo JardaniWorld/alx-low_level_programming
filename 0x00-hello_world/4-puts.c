@@ -1,11 +1,15 @@
 #include <stdio.h>
 
-/* main: This is the entry point for this function
+/** 
+ * puts(): This function is used to display strings
  *
- * Return: Always 0 (Success)
- */
+ * main(): Entry point
+ *
+ * Return(): Always 0 (Success)
+ *
+ **/
 int main(void)
 {
-	puts ("\"Programming is like building a multilingual puzzle");
-	return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
