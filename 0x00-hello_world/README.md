@@ -1,1 +1,1 @@
-This script prints a string
+This script executes to print a string
