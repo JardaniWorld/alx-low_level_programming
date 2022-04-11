@@ -1,1 +1,1 @@
-This script evaluates to print out the letters of the alphabet in both lower and upper case respectively
+This script executes to print out the letters of the alphabet excluding e and q
