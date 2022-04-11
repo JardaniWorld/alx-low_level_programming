@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-char ch;
-char ch1;
+int ch;
+int ch1;
 
 for (ch = 'a'; ch <= 'z'; ch++)
 {
