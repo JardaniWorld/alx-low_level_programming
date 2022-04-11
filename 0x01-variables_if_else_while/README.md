@@ -1,1 +1,1 @@
-This script executes to print the letters of the alphabet in reverse order
+This script executes to print all base 16 numbers in lower case
