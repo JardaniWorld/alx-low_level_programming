@@ -24,11 +24,11 @@ if (i == 89)
 continue;
 }
 
-}
 putchar(',');
 putchar(' ');
-putchar('\n');
+}
 
+putchar('\n');
 return (0);
 
 }
