@@ -1,1 +1,1 @@
-This script executes to print out the letters of the alphabet excluding e and q
+This script executes to display the base 10 digits
