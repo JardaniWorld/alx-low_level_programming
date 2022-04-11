@@ -1,1 +1,1 @@
-This script executes to display the base 10 digits
+This script executes to print out the base 10 digits using putchar function
