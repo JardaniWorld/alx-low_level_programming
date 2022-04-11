@@ -9,12 +9,12 @@ int main(void)
 {
 int i;
 
-for (i = 00; i < 90; i++)
+for (i = 00; i <= 89; i++)
 {
 putchar((i / 10) + '0');
 putchar((i % 10) + '0');
 
-if ((i % 10) == (i / 10))
+if ((i / 10) == (i % 10))
 {
 continue;
 }
