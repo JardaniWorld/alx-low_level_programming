@@ -13,7 +13,12 @@ for (a = 0; a <= 89; a++)
 {
 putchar(a);
 
-if (a % 10 == a / 10 && a == 89)
+if (a % 10 == a / 10)
+{
+continue;
+}
+
+if (a == 89)
 {
 continue;
 }
