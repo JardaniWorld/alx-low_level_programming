@@ -7,29 +7,28 @@
  */
 int main(void)
 {
-int a;
+int i;
 
-for (a = 0; a <= 89; a++)
+for (i = 0; i <= 89; i++)
 {
-putchar((a / 10) + '0');
-putchar((a % 10) + '0');
+putchar((i / 10) + '0');
+putchar((i % 10) + '0');
 
-if (a % 10 == a / 10)
-{
-continue;
-}
-
-if (a == 89)
+if ((i % 10) == (i / 10))
 {
 continue;
 }
 
+if (i == 89)
+{
+continue;
+}
+
+}
 putchar(',');
 putchar(' ');
 putchar('\n');
 
 return (0);
-
-}
 
 }
