@@ -1,1 +1,1 @@
-This script executes to print out all possible combinations of two digit numbers
+This script executes to combine three digit numbers without repetition
