@@ -1,1 +1,1 @@
-This script executes to print base 10 digits with a comma and space in between
+This script executes to print out all possible combinations of two digit numbers
