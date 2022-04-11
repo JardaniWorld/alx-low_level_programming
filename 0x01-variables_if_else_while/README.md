@@ -1,1 +1,1 @@
-This script evaluates to demonstrate conditionals
+This script evaluates to print the last digit of a number
