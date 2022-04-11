@@ -1,1 +1,1 @@
-This script evaluates to print the last digit of a number
+This script evaluates to print alphabets to the display
