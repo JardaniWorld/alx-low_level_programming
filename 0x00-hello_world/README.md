@@ -1,1 +1,1 @@
-This script evaluates to generate the assembly language of Intel
+This script executes to print the different data types in C language
