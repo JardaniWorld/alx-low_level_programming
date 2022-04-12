@@ -1,1 +1,1 @@
-This script executes to print the different data types in C language
+This Script executes to print to standard error
