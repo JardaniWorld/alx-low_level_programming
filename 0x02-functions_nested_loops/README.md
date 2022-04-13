@@ -1,1 +1,1 @@
-This script executes to check for lower case characters
+This script executes to check alphabetic characters
