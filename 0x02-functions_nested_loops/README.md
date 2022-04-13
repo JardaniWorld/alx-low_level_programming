@@ -1,1 +1,1 @@
-This script executes to print the last digit of a number
+This script executes to print out the minutes of the day
