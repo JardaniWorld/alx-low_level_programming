@@ -14,17 +14,10 @@ int _abs(int n)
 
 if (n < 0)
 {
-return (n * (-1));
-}
-
-else if (n == o)
-{
-return (0);
-}
-
-else
-{
+n = -n;
 return (n);
 }
+
+return (n);
 
 }
