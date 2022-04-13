@@ -1,1 +1,1 @@
-This script executes to compute the fibonacci series
+This script executes to print the first 98 fibonacci numbers
