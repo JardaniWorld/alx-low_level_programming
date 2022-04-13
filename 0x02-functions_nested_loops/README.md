@@ -1,1 +1,1 @@
-This script executes to print letters of the alphabet in 10 lines
+This script executes to check for lower case characters
