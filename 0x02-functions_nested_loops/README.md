@@ -1,1 +1,1 @@
-This script executes to print n times table
+This script executes to compute the sum of the multiples of 3 below 1024
