@@ -1,1 +1,1 @@
-This file executes to print out a string using the write function
+This script executes to print letters of the alphabet in 10 lines
