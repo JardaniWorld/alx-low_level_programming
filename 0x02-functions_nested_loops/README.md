@@ -1,1 +1,1 @@
-This script executes to print out the multiplication of numbers
+This script executes to add two integers together
