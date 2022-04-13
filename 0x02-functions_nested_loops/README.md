@@ -1,1 +1,1 @@
-This script executes to add two integers together
+This script executes to print out all natural numbers to 98
