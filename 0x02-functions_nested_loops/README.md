@@ -1,1 +1,1 @@
-This script executes to print the sign of a number
+This script executes to print the absolute value of numbers
