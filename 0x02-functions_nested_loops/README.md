@@ -1,1 +1,1 @@
-This script executes to print out the minutes of the day
+This script executes to print out the multiplication of numbers
