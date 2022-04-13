@@ -9,34 +9,22 @@
 void jack_bauer(void)
 {
 
-int min = 0, hr = 0, mc = 48, hc = 48, mc1 = 48, hc1 = 48;
+int a;
+int b;
 
-while (!(hc1 == 50 && hc == 52))
+for (a = 0; a <= 23; a++)
 {
 
-while (min < 60)
+for (b = 0; b <= 59; b++)
 {
-_putchar(hc1), _putchar(hc);
+_putchar(a / 10 + '0');
+_putchar(a % 10 + '0');
 _putchar(':');
-_putchar(mc1), _putchar(mc);
+_putchar(b / 10 + '0');
+_putchar(b % 10 + '0');
 _putchar('\n');
-(mc == 57) ? (mc == 48) : mc++;
-min++;
-
-if (min % 10 == 0)
-{
-mc1++;
-}
-}
-
-min = 0, mc = 48, mc1 = 48;
-(hc == 57) ? (hc == 48) : hc++;
-hr++;
-
-if (hr % 10 == 0)
-{
-hc1++;
 }
 
 }
+
 }
