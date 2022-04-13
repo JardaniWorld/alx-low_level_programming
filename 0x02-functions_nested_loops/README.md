@@ -1,1 +1,1 @@
-This script executes to print out all natural numbers to 98
+This script executes to print n times table
