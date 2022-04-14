@@ -1,1 +1,1 @@
-This script comments out a line causing an infinite loop in code
+This script executes to check the largest of three numbers
