@@ -25,7 +25,10 @@ else
 largest = c;
 }
 
+largest_number(largest, largest, largest);
+
 printf("%d is the largest number\n", largest);
+
 }
 return (0);
 }
