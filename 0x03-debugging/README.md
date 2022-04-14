@@ -1,1 +1,1 @@
-This project creates which is used to test the output of another C file
+This script comments out a line causing an infinite loop in code
