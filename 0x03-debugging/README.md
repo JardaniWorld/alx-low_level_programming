@@ -1,1 +1,1 @@
-This script executes to check the largest of three numbers
+This script executes to caluculate the remaining days left in a year given a particular day
