@@ -1,1 +1,1 @@
-This script executes to multiply two integers
+This script executes to print numbers up to 9
