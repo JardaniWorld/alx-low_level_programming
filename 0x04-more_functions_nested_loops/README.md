@@ -1,1 +1,1 @@
-This script executes to find the largest prime factor of a number
+This script executes to print an integer
