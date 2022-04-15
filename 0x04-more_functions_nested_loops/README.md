@@ -1,1 +1,1 @@
-This script executes to print a line diagonally
+This script executes to print squares
