@@ -2,11 +2,11 @@
 
 /**
  * print_number - print a number using _putchar() only
- *
+ * @n: print int
  * Return: Always 0
- */ 
+ */
 
-void printnumber(int n)
+void print_number(int n)
 {
 
 if (n < 0)
@@ -19,7 +19,7 @@ if (n == 0)
 {
 _putchar('0');
 }
-if (n/10)
+if (n / 10)
 {
 printnumber(n / 10);
 }
