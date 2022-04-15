@@ -1,1 +1,1 @@
-This script executes to draw a straight line
+This script executes to print a line diagonally
