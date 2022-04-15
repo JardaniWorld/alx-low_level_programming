@@ -9,11 +9,19 @@
 
 void print_number(int n)
 {
+unsigned int x, i = 1, y;
 
 if (n < 0)
 {
 _putchar('-');
-n = -n;
+y = -n;
+x = y;
+}
+
+else
+{
+y = n;
+x = y;
 }
 
 if (n == 0)
@@ -21,9 +29,21 @@ if (n == 0)
 _putchar('0');
 }
 
-if (n / 10)
+else
 {
-print_number(n / 10);
+while (x > 9)
+{
+i *= 10;
+x /= 10;
 }
-_putchar(n % 10 + '0');
+
+while (i > 1)
+{
+_putchar((y / i) + '0');
+y %= i;
+i /= 10;
+}
+_putchar(y + '0');
+}
+
 }
