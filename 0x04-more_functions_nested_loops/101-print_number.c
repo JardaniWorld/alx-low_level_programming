@@ -39,7 +39,7 @@ x /= 10;
 
 while (i > 1)
 {
-_putchar((y / i) + '0');
+_putchar((y / i)+'0');
 y %= i;
 i /= 10;
 }
