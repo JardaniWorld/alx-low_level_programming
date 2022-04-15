@@ -1,1 +1,1 @@
-This script executes to check for upper case alphabets
+This script executes to check for a digit number
