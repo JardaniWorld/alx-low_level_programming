@@ -1,1 +1,1 @@
-This script executes to print numbers up to 9
+This script executes to print numbers excluding 2 and 4
