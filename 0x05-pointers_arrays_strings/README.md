@@ -1,1 +1,1 @@
-This script executes to swap the values of two integers
+This script executes to return the length of a given string
