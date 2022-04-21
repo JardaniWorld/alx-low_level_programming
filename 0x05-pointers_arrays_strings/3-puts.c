@@ -10,7 +10,7 @@
 
 void _puts(char *str)
 {
-puts(char *str);
+void puts(char *str);
 
 return (0);
 }
