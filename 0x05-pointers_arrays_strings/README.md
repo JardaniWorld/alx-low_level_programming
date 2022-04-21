@@ -1,1 +1,1 @@
-This script executes to return the length of a given string
+This script executes to print a string to the standard out
