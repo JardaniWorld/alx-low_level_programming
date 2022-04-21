@@ -11,10 +11,14 @@
 
 int _strlen(char *s)
 {
-int len;
+int count;
+count = 0;
 
-len = strlen(*s);
-printf("%d\n", len);
+while (*s != \0)
+{
+count++;
+s++;
+}
 
-return (0);
+return (count);
 }
