@@ -15,5 +15,5 @@ int len;
 
 len = strlen(*s);
 
-return (len);
+return (0);
 }
