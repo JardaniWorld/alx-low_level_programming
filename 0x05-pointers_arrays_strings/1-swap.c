@@ -13,18 +13,9 @@ void swap_int(int *a, int *b)
 {
 
 int c;
-int d;
 
-c = 98;
-d = 42;
-
-printf("a = %d, \n", c);
-printf("b = %d, \n", d);
-
-a = &c;
-b = &d;
-
-*a = 42;
-*b = 98;
+c = *a;
+*a = *b;
+*b = c;
 
 }
