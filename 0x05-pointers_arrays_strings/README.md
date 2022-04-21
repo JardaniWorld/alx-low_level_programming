@@ -1,1 +1,1 @@
-This script executes to reverse a string
+This script executes to print out even numbers
