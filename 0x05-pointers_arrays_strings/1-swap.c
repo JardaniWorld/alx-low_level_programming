@@ -11,11 +11,12 @@
 
 void swap_int(int *a, int *b)
 {
-int c;
-int d;
 
-c = 98;
-d = 42;
+a = 98;
+b = 42;
+
+printf("a = %d, \n", a);
+printf("b = %d, \n", b);
 
 a = &c;
 b = &d;
