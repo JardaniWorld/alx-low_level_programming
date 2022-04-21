@@ -14,10 +14,13 @@ void swap_int(int *a, int *b)
 int c;
 int d;
 
+c = 25;
+d = 45;
+
 a = &c;
 b = &d;
 
-*a = d;
-*b = c;
+*a = 45;
+*b = 25;
 
 }
