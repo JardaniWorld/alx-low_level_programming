@@ -1,1 +1,1 @@
-This script executes to print a string in reverse
+This script executes to reverse a string
