@@ -10,24 +10,20 @@
 
 int main(void)
 {
-int r = 0, c = 0;
-time_t t;
+int num;
+int count;
+int total;
 
-srand((unsigned int) time(&t));
+srand(time(0));
 
-while (c < 2772)
+for (count = 0, total = 2772; total > 122; count++)
 {
-r = rand() % 128;
-
-if ((c + r) > 2772)
-{
-break;
+num = (rand() % 125) + 1;
+printf("%c", num);
+total -= num;
 }
-c = c + r;
-printf("%c", r);
-}
+printf("%c", total);
 
-printf("%c\n", (2772 - c));
 return (0);
 
 }
