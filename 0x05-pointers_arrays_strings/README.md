@@ -1,1 +1,1 @@
-This script executes to convert a string to an integer
+This script executes to generate a random password for a program
