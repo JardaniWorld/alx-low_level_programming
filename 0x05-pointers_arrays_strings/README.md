@@ -1,1 +1,1 @@
-This script executes to print out the elemenets of an array
+Thsis script executes to copy a string pointed to by a pointer
