@@ -1,1 +1,1 @@
-This C program compares two strings
+This C program reverses the contents of an array of integers
