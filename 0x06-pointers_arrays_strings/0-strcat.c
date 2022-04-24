@@ -38,6 +38,6 @@ b++;
 
 dest = c;
 
-return (dest);
+return (0);
 
 }
