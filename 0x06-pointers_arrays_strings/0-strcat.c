@@ -11,33 +11,26 @@
 
 char *_strcat(char *dest, char *src)
 {
-char *tmp;
-char concStr;
-tmp = &concStr;
-concStr = strcat(*dest, *src);
+int a, b;
 
-char str1[10] = "dest";
-char str2[10] = "src";
-char conc;
-char *a, *b, *c;
-_strcat(str1, str2);
+a = 0;
 
-a = &str1;
-b = &str2;
-
-while (*a != '\0')
+while (dest[a] != '\0')
 {
 a++;
 }
 
-while (*b != '\0')
+b = 0;
+
+while (src[b] != '\0')
 {
-c = strcpy(a, b);
+dest[a] = src[b];
 b++;
+a++;
 }
 
-dest = c;
+dest[a] = '\0';
 
-return (0);
+return (dest);
 
 }
