@@ -35,8 +35,8 @@ c = strcpy(a, b);
 b++;
 }
 
-*dest = conc;
+dest = c;
 
-return (conc);
+return (dest);
 
 }
