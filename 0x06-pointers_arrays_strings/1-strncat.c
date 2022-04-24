@@ -31,6 +31,7 @@ b++;
 a++
 }
 
-dest[a] = '\0';
+
+dest[a + n + 1] = '\0';
 return (dest);
 }
