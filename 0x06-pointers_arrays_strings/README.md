@@ -1,1 +1,1 @@
-This C program reverses the contents of an array of integers
+This C program changes letters from lowercase to uppercase in a string
