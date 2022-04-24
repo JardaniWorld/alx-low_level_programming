@@ -1,1 +1,1 @@
-This C program copies two strings
+This C program compares two strings
