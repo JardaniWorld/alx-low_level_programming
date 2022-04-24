@@ -1,1 +1,1 @@
-This C program concatenates two strings with a maximum allocatable memory n to one of the strings
+This C program copies two strings
