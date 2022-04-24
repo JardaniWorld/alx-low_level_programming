@@ -11,16 +11,16 @@ char *string_toupper(char *a)
 {
 int i = 0;
 
-while (*(a + i))
+while (*(s + i) != '\0')
 {
 
-if (*(a + i) >= 'a' && *a <= 'z')
+if (*(s + i) >= 'a' && *(s + i) <= 'z')
 {
-*(a + i) -= 32;
+*(s + i) = *(s + i) - 32;
 }
 
 i++;
 }
 
-return (a);
+return (s);
 }
