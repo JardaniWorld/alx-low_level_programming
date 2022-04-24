@@ -2,23 +2,25 @@
 
 /**
  * string_toupper - function changes all lowercase of a string to uppercase
- * @s: String to be modified
+ * @a: String to be modified
  *
  * Return: Always 0. (Success)
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *a)
 {
-int i;
+int i = 0;
 
-for (i = 0; s[i] != '\0'; i++)
+while (*(a + i))
 {
-if (s[i] >= 'a' && s[i] <= 'z')
+
+if (*(a + i) >= 'a' && *a <= 'z')
 {
-s[i] = s[i] - 32;
+*(a + i) -= 32;
 }
 
+i++;
 }
 
-return (s);
+return (a);
 }
