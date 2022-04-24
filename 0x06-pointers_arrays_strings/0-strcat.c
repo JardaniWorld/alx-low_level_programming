@@ -14,12 +14,13 @@ char *_strcat(char *dest, char *src)
 char *tmp;
 char concStr;
 tmp = &concStr;
-concStr = strcpy(*dest, *src);
+concStr = strcat(*dest, *src);
 
 char str1[10] = "dest";
 char str2[10] = "src";
 char conc;
 char *a, *b, *c;
+_strcat(str1, str2);
 
 a = &str1;
 b = &str2;
@@ -37,6 +38,6 @@ b++;
 
 dest = c;
 
-return (0);
+return (dest);
 
 }
