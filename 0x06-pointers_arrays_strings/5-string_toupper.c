@@ -2,12 +2,12 @@
 
 /**
  * string_toupper - function changes all lowercase of a string to uppercase
- * @a: String to be modified
+ * @s: String to be modified
  *
  * Return: Always 0. (Success)
  */
 
-char *string_toupper(char *a)
+char *string_toupper(char *s)
 {
 int i = 0;
 
