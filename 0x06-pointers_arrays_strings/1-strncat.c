@@ -22,15 +22,15 @@ while (dest[a] != '\0')
 a++;
 }
 
-src = malloc(sizeof(char) * n);
 b = 0;
 
-while (src[b] != '\0')
+while (j < n && src[b] != '\0')
 {
 dest[a] = src[b];
 b++;
 a++
 }
 
+dest[a] = '\0';
 return (dest);
 }
