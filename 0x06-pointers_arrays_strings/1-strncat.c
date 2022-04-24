@@ -17,18 +17,18 @@ int a, b;
 
 a = 0;
 
-while (dest[a] != '\0')
+while (dest[a])
 {
 a++;
 }
 
 b = 0;
 
-while (b < n && src[b] != '\0')
+while (b < n && src[b])
 {
 dest[a] = src[b];
+a++;
 b++;
-a++
 }
 
 
