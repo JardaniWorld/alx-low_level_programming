@@ -1,1 +1,1 @@
-This C program capitalizes all words of a string
+This C program encodes a string to an integer
