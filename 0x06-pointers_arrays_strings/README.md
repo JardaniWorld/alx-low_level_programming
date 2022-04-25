@@ -1,1 +1,1 @@
-This C program changes letters from lowercase to uppercase in a string
+This C program capitalizes all words of a string
