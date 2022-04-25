@@ -9,42 +9,28 @@
 
 char *cap_string(char *s)
 {
-int i, j;
-int a[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+int count = 0, i;
+int separators[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-i = 0;
-
-while (*(s + i) != '\0')
+if (*(s + count) >= 97 && *(s + count) <= 122)
 {
-
-if (*(s + i) >= 'a' && *(s + i) <= 'z')
-{
-
-if (i == 0)
-{
-*(s + i) = *(s + i) -32;
+*(s + count) = *(s + count) - 32;
+count++;
 }
-
-else
+while (*(s + count) != '\0')
 {
-
-for (j = 0; j <= 12; j++)
+for (i = 0; i < 13; i++)
 {
-
-if (a[j] == *(s + i - 1))
+if (*(s + count) == separators[i])
 {
-*(s + i) = *(s + i) -32;
+if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
+{
+*(s + (count + 1)) = *(s + (count + 1)) - 32;
+}
+break;
 }
 }
+count++;
 }
-
-}
-
-i++;
-}
-
 return (s);
-}
-
-
 }
