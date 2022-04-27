@@ -1,1 +1,1 @@
-This C code executes to locate a character in a string
+This code locates a character in a string
