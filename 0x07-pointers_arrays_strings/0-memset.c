@@ -21,6 +21,7 @@ for (i = 0; i <= &n; i++)
 &s = b;
 b++;
 }
+*ptr = n;
 
 return (ptr);
 }
