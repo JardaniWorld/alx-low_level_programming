@@ -15,7 +15,7 @@ int a;
 int i;
 int *ptr;
 
-s = &a;
+s = &n;
 
 for (i = 0; i <= &n; i++)
 {
