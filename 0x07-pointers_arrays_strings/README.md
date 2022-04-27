@@ -1,1 +1,1 @@
-This C code executes to locate a substring
+This C code executes to print the chessboard
