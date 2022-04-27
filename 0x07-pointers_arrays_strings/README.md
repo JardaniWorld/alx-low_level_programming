@@ -1,1 +1,1 @@
-This code prints a chessboard
+This code prints the sum of two diagonals of a square matrix
