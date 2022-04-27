@@ -1,1 +1,1 @@
-This C script executes to fill out memory space with a constant byte
+This C code executes to coopye one memory into another
