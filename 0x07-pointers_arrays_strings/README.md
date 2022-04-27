@@ -1,1 +1,1 @@
-This C code executes to print the chessboard
+This code prints a chessboard
