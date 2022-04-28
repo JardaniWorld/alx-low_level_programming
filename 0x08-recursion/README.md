@@ -1,1 +1,1 @@
-This code prints the length of a string
+This code computes the factorial of a number
