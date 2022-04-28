@@ -9,5 +9,6 @@
 
 void _puts_recursion(char *s)
 {
-_putchar(char s);
+*s[50] = "Puts with recursion";
+_putchar(char *s);
 }
