@@ -1,1 +1,1 @@
-This code returns the natural square root of a number
+This code executes to evaluate a prime number
