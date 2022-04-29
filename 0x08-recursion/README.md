@@ -1,1 +1,1 @@
-This code checks whether or not a string is a palindrome
+This code compares two strings to see if they are identical
