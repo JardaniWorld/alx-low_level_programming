@@ -1,1 +1,1 @@
-This code returns a value when a variaable is raised to a certain power
+This code returns the natural square root of a number
