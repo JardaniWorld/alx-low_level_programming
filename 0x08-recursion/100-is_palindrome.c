@@ -12,31 +12,34 @@
 int _strlen_recursion(char *s)
 {
 
-if (!*s)
+if (*s)
 {
-return (0);
+s++;
+return (1 + _strlen_recursion(s));
 }
-return (1 + _strlen_recursion(s++));
+
+return (0);
 }
 
 /**
- * p1 - Palindrome
- * @s: A pointer
- * @l: position
+ * helper_pal - helper function for is_Palindrome
+ * @str: A pointer
+ * @len: string length
+ * @count: iterator for recursion
  *
  * Return: Always 0. (Success)
  */
 
-int p1(char *s, int l)
+int helper_pal(char *str, int len, int count)
 {
-if (l < 1)
+if (count >= len)
 {
 return (1);
 }
 
-if (*s == *(s + l))
+if (str[len] == str[count])
 {
-return (p1(s + 1, l - 2));
+return (helper_pal(str, len - 1, count + 1));
 }
 
 return (0);
@@ -53,8 +56,8 @@ return (0);
 int is_palindrome(char *s)
 {
 int len = _strlen_recursion(s);
+int count = 0;
 
-return (p1(s, len - 1));
+return (helper_pal(s, len - 1, count));
 
-return (0);
 }
