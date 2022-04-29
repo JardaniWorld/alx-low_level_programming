@@ -16,7 +16,7 @@ if (iterator == num - 1)
 return (1);
 }
 
-else if (num % iterattor == 0)
+else if (num % iterator == 0)
 {
 return (0);
 }
