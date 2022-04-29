@@ -1,1 +1,1 @@
-This code executes to evaluate a prime number
+This code checks whether or not a string is a palindrome
