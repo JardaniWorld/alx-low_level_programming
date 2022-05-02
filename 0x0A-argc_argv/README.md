@@ -1,1 +1,1 @@
-This code multiplies two numbers
+This code adds positive numbers
