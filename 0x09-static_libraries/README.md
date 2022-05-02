@@ -1,1 +1,1 @@
-This file contains a static library which contains different functions
+This script executes to create a static library
