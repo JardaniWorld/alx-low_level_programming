@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 /**
  * main - Entry point
@@ -8,41 +10,45 @@
  *
  * Return: Always 0. (Success)
  */
-
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
-int position, total, change, aux;
-int coins[] = {25, 10, 5, 2, 1};
-
-position = total = change = aux = 0;
-
+int value, c;
+c = 0;
 if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
-
-total = atoi(argv[1]);
-
-if (total <= 0)
+value = atoi(argv[1]);
+if (value < 0)
 {
-printf("0\n");
+printf("%d\n", 0);
 return (0);
 }
-
-while (coins[position] != '\0')
+if (value % 25 >= 0)
 {
-
-if (total >= coins[position])
+c += value / 25;
+value = value % 25;
+}
+if (value % 10 >= 0)
 {
-aux = (total / coins[position]);
-change += aux;
-total -= coins[position] * aux;
+c += value / 10;
+value = value % 10;
 }
-
-position++;
+if (value % 5 >= 0)
+{
+c += value / 5;
+value = value % 5;
 }
-
-printf("%d\n", change);
+if (value % 2 >= 0)
+{
+c += value / 2;
+value = value % 2;
+}
+if (value % 1 >= 0)
+{
+c += value / 1;
+}
+printf("%d\n", c);
 return (0);
 }
