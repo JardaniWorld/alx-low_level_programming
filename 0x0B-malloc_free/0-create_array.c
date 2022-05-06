@@ -25,7 +25,7 @@ else
 return (create_array);
 }
 
-return (0);
+_putchar("\n");
 }
 
 /**
