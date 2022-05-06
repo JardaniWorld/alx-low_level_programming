@@ -22,7 +22,7 @@ return (NULL);
 
 p = malloc(sizeof(char) * size);
 
-if (q == NULL)
+if (p == NULL)
 {
 return (NULL);
 }
@@ -32,10 +32,10 @@ else
 
 for (i = 0; i < size; i++)
 {
-q[i] = c;
+p[i] = c;
 }
 
 }
 
-return (q);
+return (p);
 }
