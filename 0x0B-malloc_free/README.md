@@ -1,1 +1,1 @@
-This code returns a pointer to a 2D array
+This code frees the memory space of a 2D grid array
