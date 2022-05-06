@@ -12,31 +12,30 @@
 
 char *create_array(unsigned int size, char c)
 {
-char c[] = "John";
-c[0] = 'J';
+char *p;
+unsigned int i;
 
 if (size == 0)
 {
 return (NULL);
 }
 
+p = malloc(sizeof(char) * size);
+
+if (q == NULL)
+{
+return (NULL);
+}
+
 else
 {
-return (create_array);
-}
 
-_putchar("\n");
-}
-
-/**
- * main - Entry point
- *
- * Return: Always 0. (Success)
- */
-
-int main(void)
+for (i = 0; i < size; i++)
 {
-create_array();
+q[i] = c;
+}
 
-return (0);
+}
+
+return (q);
 }
