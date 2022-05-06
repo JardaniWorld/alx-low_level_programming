@@ -47,6 +47,6 @@ for (k = k, l = 0; s2[l] != '\0'; l++, k++)
 {
 ptr[k] = s2[l];
 }
-ptr = '\0';
+ptr[k] = '\0';
 return (ptr);
 }
