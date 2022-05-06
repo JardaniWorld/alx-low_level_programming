@@ -1,1 +1,1 @@
-This code creates a pointer to a newly allocated space in memory
+This code concatenates two strings together
