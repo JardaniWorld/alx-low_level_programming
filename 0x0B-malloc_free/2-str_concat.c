@@ -19,11 +19,11 @@ char *ptr;
 
 if (s1 == NULL)
 {
-s1 = "";
+s1 = " ";
 }
 if (s2 == NULL)
 {
-s2 = "";
+s2 = " ";
 }
 for (i = 0; s1[i] != '\0'; i++)
 {
@@ -34,7 +34,7 @@ for (j = 0; s2[j] != '\0'; j++)
 tmp2 = tmp2 + 1;
 }
 tmp = tmp1 + tmp2;
-ptr = malloc(sizeof(char) * tmp + 1)
+ptr = malloc(sizeof(char) * tmp + 1);
 if (ptr == NULL)
 {
 return (NULL);
