@@ -41,7 +41,7 @@ return (NULL);
 }
 for (k = 0; s1[k] != '\0'; k++)
 {
-ptr[k] = si[k];
+ptr[k] = s1[k];
 }
 for (k = k, l = 0; s2[l] != '\0'; l++, k++)
 {
