@@ -27,7 +27,7 @@ return (0);
 }
 
 while (i <= max - min)
-}
+{
 arr[i++] = t++;
 }
 
