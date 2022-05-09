@@ -1,1 +1,1 @@
-This code concatenates two strings
+This code reallocates memory using malloc and free
