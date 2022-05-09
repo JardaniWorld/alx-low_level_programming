@@ -1,1 +1,1 @@
-This code allocates memory using malloc
+This code allocates memory for an array using malloc
