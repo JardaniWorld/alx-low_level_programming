@@ -1,1 +1,1 @@
-This code creates an array of integers
+This code concatenates two strings
