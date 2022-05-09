@@ -1,1 +1,1 @@
-This code allocates memory for an array using malloc
+This code creates an array of integers
