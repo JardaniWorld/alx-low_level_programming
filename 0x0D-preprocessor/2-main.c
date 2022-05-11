@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#define __FILE__
 
 /**
  * main - Entry point
