@@ -1,1 +1,1 @@
-This code includes a predefined macro to display the current file
+This function-like macro computes the sum of two variables
