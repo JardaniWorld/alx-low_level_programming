@@ -1,1 +1,1 @@
-This code creates a macro with a token
+This code creates a macro for PI
