@@ -1,1 +1,1 @@
-This code creates a macro for PI
+This code includes a predefined macro to display the current file
