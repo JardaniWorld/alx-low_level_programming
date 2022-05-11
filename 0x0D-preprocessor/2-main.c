@@ -1,6 +1,7 @@
+#ifndef __FILE_H__
+#define __FILE_H__
 #include <stdlib.h>
 #include <stdio.h>
-#define __FILE__
 
 /**
  * main - Entry point
@@ -14,3 +15,6 @@ printf("%s\n", __FILE__);
 
 return (0);
 }
+
+#endif
+
