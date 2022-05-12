@@ -1,1 +1,1 @@
-This code prints struct dog
+This code creates a new dog
