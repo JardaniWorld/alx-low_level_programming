@@ -1,1 +1,1 @@
-This code creates a new type with some elements
+This code initializes a variable of type struct
