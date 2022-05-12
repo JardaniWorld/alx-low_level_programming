@@ -1,1 +1,1 @@
-This code creates a new dog
+This code frees the members of the struct dog
