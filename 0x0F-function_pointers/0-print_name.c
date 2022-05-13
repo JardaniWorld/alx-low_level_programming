@@ -11,10 +11,7 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-char *name1;
-*name = &name1;
-
-_putchar(name);
+_putchar(*name);
 }
 
 /**
@@ -26,7 +23,7 @@ _putchar(name);
 int main(void)
 {
 void (*f)(char *) = print_name;
-print_name(name1);
+print_name(name);
 
 return (0);
 }
