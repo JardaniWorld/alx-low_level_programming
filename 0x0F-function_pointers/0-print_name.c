@@ -11,21 +11,10 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-char *ptr;
-ptr = *name;
-_putchar(ptr);
+if (name == NULL || f == NULL)
+{
+return;
 }
 
-/**
- * main - Entry point
- *
- * Return: Always 0. (Success)
- */
-
-int main(void)
-{
-void (*f)(char *) = print_name;
-print_name();
-
-return (0);
+f(name);
 }
