@@ -26,7 +26,7 @@ _putchar(name);
 int main(void)
 {
 void (*f)(char *) = print_name;
-print_name();
+print_name(name1);
 
 return (0);
 }
