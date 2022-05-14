@@ -1,1 +1,1 @@
-This function prints the opcodes of its own main function
+This code performssimple operations
