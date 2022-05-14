@@ -1,1 +1,1 @@
-This code searches for an integer
+This function prints the opcodes of its own main function
