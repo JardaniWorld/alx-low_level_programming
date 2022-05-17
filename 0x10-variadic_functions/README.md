@@ -1,1 +1,1 @@
-This code prints numbers followed by a new line
+This code prints strings followed by a new line
