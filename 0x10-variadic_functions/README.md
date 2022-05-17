@@ -1,1 +1,1 @@
-Thi code returns the sum of all its parameters
+This code prints numbers followed by a new line
