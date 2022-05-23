@@ -3,44 +3,44 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * Return: Always 0. (Success)
  */
 
 int main(void)
 {
-int c;
-int d = 0;
-int e = 0;
 
-while (e < 10 && d < 10)
-{
-c = 0;
-while (c < 10)
-{
-if (e != d && e < d)
-{
-if (e != c && c < e)
-{
-if (d != c && c < d)
-{
-putchar('0' + e);
-putchar('0' + d);
-putchar('0' + c);
+int left;
+int right;
+int center;
 
-if (c + d + e != 24)
+
+
+for (left = 48; left <= 57; left++)
 {
+for (center = left + 1; center <= 57; center++)
+{
+for (right = center + 1 ; right <= 57; right++)
+{
+putchar(left);
+putchar (center);
+putchar (right);
+
+if  ((left == 55) && (center == left + 1) && (right == center + 1))
+{
+break;
+}
+
 putchar(',');
-putchar(' ');
+putchar (' ');
+
 }
+
 }
-c++;
+
 }
-d++;
-}
-e++;
-}
-}
+
 putchar('\n');
+
 return (0);
 
 }
