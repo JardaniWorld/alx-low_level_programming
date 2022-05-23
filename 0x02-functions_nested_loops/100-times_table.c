@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - This function prints the times table
- *
+ * @n: A parameter
  * Return: Always 0. (Success)
  */
 
