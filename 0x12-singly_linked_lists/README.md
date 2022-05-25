@@ -1,1 +1,1 @@
-This code returns the number of elements in a singly linked list
+Tshis code adds a new node to the beginning of a linked list
