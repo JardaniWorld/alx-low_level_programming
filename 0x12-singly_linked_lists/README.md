@@ -1,1 +1,1 @@
-This code adds a node at the end of a linked list
+This function frees the memory allocated for a linked list
