@@ -1,1 +1,1 @@
-This function frees the memory allocated for a linked list
+This code is for a function that prints text before the main function
