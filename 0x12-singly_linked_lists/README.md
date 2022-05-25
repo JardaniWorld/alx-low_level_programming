@@ -1,1 +1,1 @@
-Tshis code adds a new node to the beginning of a linked list
+This code adds a node at the end of a linked list
