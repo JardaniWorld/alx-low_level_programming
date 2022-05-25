@@ -1,1 +1,1 @@
-This code is for a function that prints text before the main function
+This code is an assembly code for a string
