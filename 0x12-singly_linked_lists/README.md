@@ -1,1 +1,1 @@
-This code is for a list which prints all its elements
+This code returns the number of elements in a singly linked list
