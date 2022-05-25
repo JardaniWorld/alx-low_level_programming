@@ -25,7 +25,7 @@ return (NULL);
 newElement->str = strdup(str);
 
 for (numchar = 0; str[numchar]; numchar++)
-	;
+    ;
 
 newElement->len = numchar;
 newElement->head = *head;
