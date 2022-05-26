@@ -1,1 +1,1 @@
-This code frees a singly linked list
+This code deletes the head node of a linked list and returns the head nodes data
