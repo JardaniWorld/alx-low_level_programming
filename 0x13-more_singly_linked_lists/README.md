@@ -1,1 +1,1 @@
-This code frees the memory allocated to a singly linked list
+This code frees a singly linked list
