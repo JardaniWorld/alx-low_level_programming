@@ -1,1 +1,1 @@
-This code adds a new node at the beginning of a singly linked list
+This code adds a new node at the end of a singly linked list
