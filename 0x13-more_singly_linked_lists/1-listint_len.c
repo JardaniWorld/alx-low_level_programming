@@ -20,5 +20,5 @@ a = h->n;
 a++;
 }
 
-return (countElements);
+return (a);
 }
