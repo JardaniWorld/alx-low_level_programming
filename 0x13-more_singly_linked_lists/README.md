@@ -1,1 +1,1 @@
-This code returns the nth node of a singly linked list
+This code returns the sum of all the n data of a singly linked list
