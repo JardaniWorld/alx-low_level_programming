@@ -15,6 +15,11 @@ listint_t *newNode;
 if (head == NULL)
 	return (NULL);
 
+newNode = malloc(sizeof(listint_t));
+
+if (newNode == NULL)
+	return (NULL);
+
 if (*head == NULL)
 	newNode->next = NULL;
 
