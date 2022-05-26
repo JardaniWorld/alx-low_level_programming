@@ -11,14 +11,12 @@
 
 size_t listint_len(const listint_t *h)
 {
-size_t a;
 unsigned int countElements;
 
 for (countElements = 0; h != NULL; countElements++)
 {
-a = h->n;
-a++;
+h = h->next;
 }
 
-return (a);
+return (countElements);
 }
