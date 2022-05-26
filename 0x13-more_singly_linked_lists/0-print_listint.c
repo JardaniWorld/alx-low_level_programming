@@ -18,7 +18,7 @@ if (h == NULL)
 
 for (countNode = 0; h != NULL; countNode++)
 {
-printf("%d", h->n);
+printf("%d\n", h->n);
 h = h->next;
 }
 
