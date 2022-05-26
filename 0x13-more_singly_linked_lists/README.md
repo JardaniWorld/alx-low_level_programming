@@ -1,1 +1,1 @@
-This code prints all the elements of a singly linked list and returns the number of nodes
+This code returns the number of elements in a linked list
