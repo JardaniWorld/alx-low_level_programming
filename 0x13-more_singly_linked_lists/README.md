@@ -1,1 +1,1 @@
-This code inserts a new node at at a given position
+This code deletes a particular node at a given index
