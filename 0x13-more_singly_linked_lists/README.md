@@ -1,1 +1,1 @@
-This code returns the sum of all the n data of a singly linked list
+This code inserts a new node at at a given position
