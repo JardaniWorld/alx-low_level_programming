@@ -1,1 +1,1 @@
-This code executes to flip a bit
+This code executes to check for endianness
