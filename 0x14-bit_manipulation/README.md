@@ -1,1 +1,1 @@
-This code executes to convert a binary number to a decimal number
+This code executes to print the binary representation of a number
