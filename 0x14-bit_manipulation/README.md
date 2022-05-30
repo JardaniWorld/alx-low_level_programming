@@ -1,1 +1,1 @@
-This code executes to print the value of a bit at a given index
+This code executes to set the value of a bit to 1 at a given index
