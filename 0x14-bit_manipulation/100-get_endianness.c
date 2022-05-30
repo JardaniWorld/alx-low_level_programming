@@ -15,5 +15,5 @@ char *check;
 i = 1;
 check = (char *)&i;
 
-return ((int)check[0]);
+return (*check);
 }
