@@ -32,7 +32,7 @@ fread = read(file, countsize, letters);
 if (fread == -1)
 	return (0);
 
-fwrite = write(1, countsize, fread);
+fwrite = write(STDOUT_FILENO, countsize, fread);
 
 if (fwrite == -1)
 	return (0);
