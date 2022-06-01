@@ -1,1 +1,1 @@
-This code executes to append text at the end of a file
+This code executes tocopy the contents of a file into another
