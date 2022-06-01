@@ -1,1 +1,1 @@
-This code executes to create a file
+This code executes to append text at the end of a file
