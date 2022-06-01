@@ -16,6 +16,9 @@ int file, fwrite, i;
 if (filename == NULL)
 	return (-1);
 
+if (text_content == NULL)
+	text_content = "";
+
 file = open(filename, O_CREAT | O_TRUNC | O_WRONLY, 0600);
 
 if (file == -1)
