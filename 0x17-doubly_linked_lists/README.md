@@ -1,1 +1,1 @@
-This code prints all the elements of a dlistint_t list
+This code returns the number of elements in a linked dlistint_t list
